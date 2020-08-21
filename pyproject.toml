@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gstr169_brain_games"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["d.finko <dmit.finn@yandex.ru>"]
 packages = [
