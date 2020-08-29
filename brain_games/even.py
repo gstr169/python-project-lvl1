@@ -25,7 +25,6 @@ def game_flow() -> bool:
             print('Correct!')
         else:
             correct = list(ANSWERS)[correct_answer]
-            print(f"''{answer}'' is wrong answer ;(. Correct answer was '{correct}'.")
-            print("Let's try again, Bill!")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
             return False
     return True
