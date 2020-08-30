@@ -9,7 +9,7 @@ def calc_question() -> tuple:
     correct_answer = operation(number_a, number_b)
     print(f'Question: {number_a} {operation_str} {number_b}')
     answer = prompt.string('Your answer: ')
-    if int(answer) == correct_answer:
+    if answer == str(correct_answer):
         return True, correct_answer, answer
     else:
         return False, correct_answer, answer

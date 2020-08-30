@@ -14,9 +14,10 @@ def game_flow(question_def) -> None:
         if result:
             print('Correct!')
         else:
-            print(f"""
-                '{answer}' is wrong answer ;(. 
-                Correct answer was '{correct}'.
-            """)
+            print(
+                f"'{answer}' is wrong answer ;(.",
+                f"Correct answer was '{correct}'.",
+            )
             print(f"Let's try again, {name}!")
+            return
     print(f'Congratulations, {name}!')
