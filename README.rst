@@ -56,3 +56,12 @@ Game GCD:
 .. image:: https://asciinema.org/a/8yFyaH3qnJlyUjow8OnD5NZr8.svg
    :target: https://asciinema.org/a/8yFyaH3qnJlyUjow8OnD5NZr8
    :alt: Asciinema
+
+Game Progression:
+*********
+
+ brain-progression
+
+.. image:: https://asciinema.org/a/TVGnHGZ01iXU62cvQzypeebZD.svg
+   :target: https://asciinema.org/a/TVGnHGZ01iXU62cvQzypeebZD
+   :alt: Asciinema
