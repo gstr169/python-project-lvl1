@@ -9,15 +9,50 @@ Brain Games
    :target: https://github.com/gstr169/python-project-lvl1/actions?query=workflow%3A%22Python+CI%22
    :alt: Python CI
 
-Installation command:
+Installation:
+#############
 
  python3 -m pip install -i https://test.pypi.org/simple/ gstr169-brain-games --extra-index-url https://pypi.org/simple/
 
-.. image:: https://asciinema.org/a/rkaZQL2qX0k1ZQzppThyvPpaK.svg
-   :target: https://asciinema.org/a/rkaZQL2qX0k1ZQzppThyvPpaK
+.. image:: https://asciinema.org/a/3F1MYgs2PQqlsHZzvzpHLyf50.svg
+   :target: https://asciinema.org/a/3F1MYgs2PQqlsHZzvzpHLyf50
    :alt: Asciinema
 
 How to run games:
+#################
+
+Game Welcome:
+*************
+
  brain-games
+
+.. image:: https://asciinema.org/a/EQ8rSle2QiCgb3rFIS4tZEgCy.svg
+   :target: https://asciinema.org/a/EQ8rSle2QiCgb3rFIS4tZEgCy
+   :alt: Asciinema
+
+Game Even:
+**********
+
  brain-even
+
+.. image:: https://asciinema.org/a/19ON2FAyHdjwYbS60wntCz2Vx.svg
+   :target: https://asciinema.org/a/19ON2FAyHdjwYbS60wntCz2Vx
+   :alt: Asciinema
+
+Game Calc:
+**********
+
  brain-calc
+
+.. image:: https://asciinema.org/a/mlZI26aLp1WsxGMBMP2f6xA3E.svg
+   :target: https://asciinema.org/a/mlZI26aLp1WsxGMBMP2f6xA3E
+   :alt: Asciinema
+
+Game GCD:
+*********
+
+ brain-gcd
+
+.. image:: https://asciinema.org/a/8yFyaH3qnJlyUjow8OnD5NZr8.svg
+   :target: https://asciinema.org/a/8yFyaH3qnJlyUjow8OnD5NZr8
+   :alt: Asciinema
