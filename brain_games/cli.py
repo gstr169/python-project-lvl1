@@ -9,7 +9,7 @@ def welcome_user():
 
 def game_flow(question_def) -> None:
     name = welcome_user()
-    for i in range(0, 3):
+    for _i in range(0, 3):
         result, correct, answer = question_def()
         if result:
             print('Correct!')
