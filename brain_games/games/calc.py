@@ -13,4 +13,3 @@ def calc_question() -> tuple:
         return True, correct_answer, answer
     else:
         return False, correct_answer, answer
-
