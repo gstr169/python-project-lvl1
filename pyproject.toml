@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "gstr169_brain_games"
 version = "0.5.0"
-description = ""
+description = "Project with a many brain games."
 authors = ["d.finko <dmit.finn@yandex.ru>"]
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console"
+]
+repository = "https://github.com/gstr169/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.8.5"
