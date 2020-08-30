@@ -3,9 +3,10 @@ from random import randint
 
 
 def progression_question() -> tuple:
-    element, step, index_missing = randint(0, 99), randint(0, 99), randint(0, 9)
+    element, step = randint(0, 99), randint(0, 99)
+    index_missing = randint(0, 9)
     correct_answer = 0
-    print(f'Question: ')
+    print('Question: ')
     for i in range(0, 10):
         if i == index_missing:
             correct_answer = element
