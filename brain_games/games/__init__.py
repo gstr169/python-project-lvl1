@@ -5,5 +5,5 @@ from .progression import progression_question
 
 __all__ = [
     'even_question', 'calc_question',
-    'gcd_question', 'progression_question'
+    'gcd_question', 'progression_question',
 ]
