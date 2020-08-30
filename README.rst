@@ -9,10 +9,15 @@ Brain Games
    :target: https://github.com/gstr169/python-project-lvl1/actions?query=workflow%3A%22Python+CI%22
    :alt: Python CI
 
-Installation link:
+Installation command:
 
  python3 -m pip install -i https://test.pypi.org/simple/ gstr169-brain-games --extra-index-url https://pypi.org/simple/
 
 .. image:: https://asciinema.org/a/rkaZQL2qX0k1ZQzppThyvPpaK.svg
    :target: https://asciinema.org/a/rkaZQL2qX0k1ZQzppThyvPpaK
    :alt: Asciinema
+
+How to run games:
+ brain-games
+ brain-even
+ brain-calc
