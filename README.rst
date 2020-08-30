@@ -13,6 +13,6 @@ Installation link:
 
  python3 -m pip install -i https://test.pypi.org/simple/ gstr169-brain-games --extra-index-url https://pypi.org/simple/
 
-.. image:: https://asciinema.org/a/o2l7XAABnW500GKwg2gDxKRNq.svg
-   :target: https://asciinema.org/a/o2l7XAABnW500GKwg2gDxKRNq
+.. image:: https://asciinema.org/a/rkaZQL2qX0k1ZQzppThyvPpaK.svg
+   :target: https://asciinema.org/a/rkaZQL2qX0k1ZQzppThyvPpaK
    :alt: Asciinema
