@@ -65,3 +65,12 @@ Game Progression:
 .. image:: https://asciinema.org/a/TVGnHGZ01iXU62cvQzypeebZD.svg
    :target: https://asciinema.org/a/TVGnHGZ01iXU62cvQzypeebZD
    :alt: Asciinema
+
+Game GCD:
+*********
+
+ brain-prime
+
+.. image:: https://asciinema.org/a/sw7SlKinHwKz9M2xht48MGKXG.svg
+   :target: https://asciinema.org/a/sw7SlKinHwKz9M2xht48MGKXG
+   :alt: Asciinema
