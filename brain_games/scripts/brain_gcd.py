@@ -1,11 +1,9 @@
 from brain_games.cli import game_flow
-from brain_games.games import gcd_question
+from brain_games.games import gcd_game
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    print('Find the greatest common divisor of given numbers.', end='\n\n')
-    game_flow(gcd_question)
+    game_flow(gcd_game)
 
 
 if __name__ == '__main__':

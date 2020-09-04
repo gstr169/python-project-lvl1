@@ -1,11 +1,11 @@
-from .even import even_question
-from .calc import calc_question
-from .gcd import gcd_question
-from .progression import progression_question
-from .prime import prime_question
+from .calc import calc_game
+from .even import even_game
+from .gcd import gcd_game
+from .progression import progression_game
+from .prime import prime_game
 
 __all__ = [
-    'even_question', 'calc_question',
-    'gcd_question', 'progression_question',
-    'prime_question',
+    'even_game', 'calc_game',
+    'gcd_game', 'progression_game',
+    'prime_game',
 ]

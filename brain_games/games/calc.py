@@ -1,15 +1,19 @@
-import prompt
+from typing import Tuple
 from random import randint, choice
-from brain_games.constants import OPERATIONS
+
+OPERATIONS = (
+    ('+', int.__add__),
+    ('-', int.__sub__),
+    ('*', int.__mul__),
+)
 
 
-def calc_question() -> tuple:
+def calc_game() -> Tuple[str, str]:
     number_a, number_b = randint(0, 99), randint(0, 99)
     operation_str, operation = choice(OPERATIONS)
     correct_answer = operation(number_a, number_b)
-    print(f'Question: {number_a} {operation_str} {number_b}')
-    answer = prompt.string('Your answer: ')
-    if answer == str(correct_answer):
-        return True, correct_answer, answer
-    else:
-        return False, correct_answer, answer
+    question = f'Question: {number_a} {operation_str} {number_b}'
+    return question, str(correct_answer)
+
+
+calc_game.welcome_message = 'What is the result of the expression?'

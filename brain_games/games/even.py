@@ -1,14 +1,17 @@
-import prompt
+from typing import Tuple
 from random import randint
-from brain_games.constants import ANSWERS
+
+ANSWERS = {
+    'no': False,
+    'yes': True,
+}
 
 
-def even_question() -> tuple:
+def even_game() -> Tuple[str, str]:
     number = randint(0, 99)
     correct_answer = (number % 2) == 0
-    print(f'Question: {number}')
-    answer = prompt.string('Your answer: ')
-    if ANSWERS.get(answer) == correct_answer:
-        return True, list(ANSWERS)[correct_answer], answer
-    else:
-        return False, list(ANSWERS)[correct_answer], answer
+    return str(number), list(ANSWERS)[correct_answer]
+
+
+even_game.welcome_message = 'Answer "yes" if number even ' \
+                            'otherwise answer "no".'
