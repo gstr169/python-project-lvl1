@@ -1,17 +1,15 @@
 from typing import Tuple
 from random import randint
 
-ANSWERS = {
-    'no': False,
-    'yes': True,
-}
+DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 
-def even_game() -> Tuple[str, str]:
+def generate_question_and_answer() -> Tuple[str, str]:
     number = randint(0, 99)
-    correct_answer = (number % 2) == 0
-    return str(number), list(ANSWERS)[correct_answer]
-
-
-even_game.welcome_message = 'Answer "yes" if number even ' \
-                            'otherwise answer "no".'
+    is_even = (number % 2) == 0
+    question = str(number)
+    if is_even:
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
+    return question, correct_answer

@@ -1,18 +1,29 @@
 import prompt
 
+NUMBER_OF_QUESTIONS = 3
 
-def welcome_user(welcome_message=''):
+
+def welcome_message():
     print('Welcome to the Brain Games!')
-    print(welcome_message, end='\n\n')
+
+
+def get_user_name():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     return name
 
 
-def game_flow(game_def) -> None:
-    name = welcome_user(game_def.welcome_message)
-    for _i in range(0, 3):
-        question, correct_answer = game_def()
+def welcome_user():
+    welcome_message()
+    get_user_name()
+
+
+def game_flow(game_module) -> None:
+    welcome_message()
+    print(game_module.DESCRIPTION, end='\n\n')
+    name = get_user_name()
+    for _i in range(NUMBER_OF_QUESTIONS):
+        question, correct_answer = game_module.generate_question_and_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:

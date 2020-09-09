@@ -1,9 +1,9 @@
 from brain_games.cli import game_flow
-from brain_games.games import progression_game
+from brain_games.games import progression
 
 
 def main():
-    game_flow(progression_game)
+    game_flow(progression)
 
 
 if __name__ == '__main__':
